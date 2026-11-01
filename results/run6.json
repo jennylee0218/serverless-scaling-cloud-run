@@ -1,0 +1,39 @@
+{
+  "label": "run6",
+  "setting": "concurrency=4,min=1,cpu=2",
+  "path": "/score?n=200000",
+  "concurrency_clients": 50,
+  "seconds": 65.1,
+  "requests": 4909,
+  "errors": 8,
+  "rps": 75.4,
+  "first_request_ms": 1061.8,
+  "p50_ms": 134.6,
+  "p95_ms": 5105.7,
+  "max_ms": 21479.6,
+  "distinct_instances": 17,
+  "cold_starts": 17,
+  "requests_per_instance": {
+    "869b8696": 1334,
+    "c4c30772": 1118,
+    "3e90b105": 815,
+    "9ecee848": 612,
+    "d7e24452": 397,
+    "9be53f74": 216,
+    "78937822": 153,
+    "cd284217": 147,
+    "ea30c280": 40,
+    "d1acabda": 25,
+    "452f657f": 22,
+    "c080cacf": 15,
+    "18525282": 7,
+    "2ef74159": 4,
+    "36f05c08": 2,
+    "2250471b": 1,
+    "839add09": 1
+  },
+  "versions": {
+    "v1": 4909
+  },
+  "finished_at": "2026-10-19 03:44:55"
+}

@@ -1,0 +1,25 @@
+{
+  "label": "run1",
+  "setting": "concurrency=80",
+  "path": "/score?n=200000",
+  "concurrency_clients": 50,
+  "seconds": 70.0,
+  "requests": 1870,
+  "errors": 1,
+  "rps": 26.7,
+  "first_request_ms": 1505.3,
+  "p50_ms": 1529.7,
+  "p95_ms": 3336.2,
+  "max_ms": 13853.2,
+  "distinct_instances": 3,
+  "cold_starts": 3,
+  "requests_per_instance": {
+    "e9d8a461": 981,
+    "7268790f": 651,
+    "b7c6f5d9": 238
+  },
+  "versions": {
+    "v1": 1870
+  },
+  "finished_at": "2026-10-19 03:08:35"
+}

@@ -1,0 +1,7 @@
+2026-10-19 02:58:27  APIs enabled (run, cloudbuild, artifactregistry, cloudfunctions, monitoring) — no setup.sh, no Dataproc
+2026-10-19 02:59:40  deploy v1
+2026-10-19 03:01:02  deploy v1
+2026-10-19 03:06:31  deploy function scale-fn
+2026-10-19 03:20:21  runs 1-5 done
+2026-10-19 03:51:11  cleanup done (service, function, images, function sources)
+2026-10-19 03:52:16  removed leftover function upload bucket (gcf-v2-uploads); verified: 0 services, 0 functions, 0 image repos, 0 clusters

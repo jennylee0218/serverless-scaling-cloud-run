@@ -1,0 +1,3 @@
+# load generator and monitoring_check.py use only the standard library
+# app/ and function/ have their own requirements.txt for deployment
+pytest>=8

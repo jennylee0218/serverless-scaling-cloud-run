@@ -1,0 +1,6 @@
+idle-cold curl1 total_s=0.778819 connect_s=0.011464
+{"cold_start":true,"instance":"ad55b1f1","ms":33.1,"n":200000,"revision":"scale-fn-00001-qay","score":891.11,"uptime_s":0.13,"version":"fn-v1"}
+
+idle-cold curl2 total_s=0.096758 connect_s=0.002796
+{"cold_start":false,"instance":"ad55b1f1","ms":40.6,"n":200000,"revision":"scale-fn-00001-qay","score":891.11,"uptime_s":0.25,"version":"fn-v1"}
+

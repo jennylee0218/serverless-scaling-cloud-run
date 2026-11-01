@@ -1,0 +1,134 @@
+{
+  "run1": {
+    "service": "scale-api",
+    "revision": "scale-api-00002-p7f",
+    "window_utc": [
+      "2026-10-19T03:07:25Z",
+      "2026-10-19T03:08:35Z"
+    ],
+    "instances_active_per_min": [
+      0.0,
+      0.0,
+      2.0,
+      3.0
+    ],
+    "instances_idle_per_min": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "peak_instances_active": 3.0,
+    "peak_instances_total": 3.0,
+    "server_p50_ms": 2123.6,
+    "server_p95_ms": 3123.5
+  },
+  "run2": {
+    "service": "scale-api",
+    "revision": "scale-api-00003-mg9",
+    "window_utc": [
+      "2026-10-19T03:10:54Z",
+      "2026-10-19T03:11:59Z"
+    ],
+    "instances_active_per_min": [
+      48.0,
+      34.0
+    ],
+    "instances_idle_per_min": [
+      0.0,
+      11.0
+    ],
+    "peak_instances_active": 48.0,
+    "peak_instances_total": 48.0,
+    "server_p50_ms": 38.8,
+    "server_p95_ms": 50.2
+  },
+  "run3": {
+    "service": "scale-api",
+    "revision": "scale-api-00004-gbf",
+    "window_utc": [
+      "2026-10-19T03:13:47Z",
+      "2026-10-19T03:14:52Z"
+    ],
+    "instances_active_per_min": [
+      27.0,
+      12.0
+    ],
+    "instances_idle_per_min": [
+      1.0,
+      5.0
+    ],
+    "peak_instances_active": 27.0,
+    "peak_instances_total": 28.0,
+    "server_p50_ms": 43.1,
+    "server_p95_ms": 98.2
+  },
+  "run4": {
+    "service": "scale-api",
+    "revision": "scale-api-00005-h4h",
+    "window_utc": [
+      "2026-10-19T03:16:40Z",
+      "2026-10-19T03:17:46Z"
+    ],
+    "instances_active_per_min": [
+      27.0,
+      20.0
+    ],
+    "instances_idle_per_min": [
+      0.0,
+      0.0
+    ],
+    "peak_instances_active": 27.0,
+    "peak_instances_total": 27.0,
+    "server_p50_ms": 39.1,
+    "server_p95_ms": 97.0
+  },
+  "run5": {
+    "service": "scale-fn",
+    "revision": "scale-fn-00001-qay",
+    "window_utc": [
+      "2026-10-19T03:19:16Z",
+      "2026-10-19T03:20:21Z"
+    ],
+    "instances_active_per_min": [
+      0.0,
+      22.0,
+      18.0,
+      0.0
+    ],
+    "instances_idle_per_min": [
+      1.0,
+      0.0,
+      2.0,
+      13.0
+    ],
+    "peak_instances_active": 22.0,
+    "peak_instances_total": 22.0,
+    "server_p50_ms": 49.2,
+    "server_p95_ms": 65.0
+  },
+  "run6": {
+    "service": "scale-api",
+    "revision": "scale-api-00006-vpk",
+    "window_utc": [
+      "2026-10-19T03:43:50Z",
+      "2026-10-19T03:44:55Z"
+    ],
+    "instances_active_per_min": [
+      0.0,
+      0.0,
+      19.0,
+      12.0
+    ],
+    "instances_idle_per_min": [
+      1.0,
+      1.0,
+      0.0,
+      4.0
+    ],
+    "peak_instances_active": 19.0,
+    "peak_instances_total": 19.0,
+    "server_p50_ms": 131.5,
+    "server_p95_ms": 237.5
+  }
+}

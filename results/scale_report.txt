@@ -1,0 +1,9 @@
+run      setting               req      p50      p95  inst  cold   est $
+run1     concurrency=80       1870    1530ms    3336ms     3     3  0.0730
+run2     concurrency=1        5522      56ms    5054ms    37    37  0.0100
+run3     concurrency=1,min=   5824      58ms    5056ms    25    25  0.0109
+run4     concurrency=1,min=   7002      60ms    5046ms    22    22  0.0234
+run5     function             5659      69ms    5069ms    23    22  0.0121
+run6     concurrency=4,min=   4909     135ms    5106ms    17    17  0.0345
+
+est $ = (requests × p50) × (vCPU-s + GiB-s prices) + requests price — handling time only; min-instances idle time is NOT included.
